@@ -1,0 +1,128 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'poppins', sans-serif;
+}
+body{
+  background: #000;
+  color: #fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  overflow:hidden; 
+  background:url('https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/4fb4af6e-d0ca-4c7f-b004-b34226727e55/IN-en-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+  background-size:cover;
+  position:relative;
+}
+.img{
+ width: 300px;
+ position: relative;
+ top: 50px;
+ left: 200px;
+}
+.Header{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.login{
+  margin-top: 50px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-size: 35px;
+  font-weight: 600px;
+  background-color: #e50914;
+  color: white;
+}
+
+.login{
+  background-color: #e50914;
+  transform: all 0.1s ease;
+}
+.login:hover {
+  filter: brightness(0.8);
+}
+h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+  font-size: 130px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  font-size: 130px;
+}
+p{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 25px;
+}
+.text1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 33px;
+}
+input{
+  width: 650px;
+  height: 100px;
+  /* background-image: linear-gradient(rgb(182, 172, 172), rgba(97, 97, 97, 0.966)); */
+  border-radius: 6px;
+  padding: 0px 20px;
+  outline: none;
+  border: 1px solid rgb(128, 128, 128);
+  box-sizing: border-box;
+  -webkit-text-fill-color: #030303;
+  color: #faf4f4; 
+  font-size: 35px; 
+  margin-top: 30px; 
+}
+input:placeholder-shown {
+  border: 2px solid #515350;  /* normal grey */
+}
+input:not(:placeholder-shown) {
+  border: 2px solid #4CAF50 !important;  /* GREEN */
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+}
+
+.fill{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+button{
+  height: 105px;
+  width: 15vw;
+  padding: 0 25px;
+  margin-top: 30px;
+  background-color: #e50914;   /* Netflix red */
+  color: rgb(202, 199, 199);
+  font-size: 50px;
+  font-family:sans-serif;
+  padding: 15px 20px;  /*it center the text in the button*/
+  border: none;
+  border-radius: 9px;  /* right side rounded only */
+  cursor: pointer;
+  white-space: nowrap;
+}
+button {
+  background-color: #e50914;
+  transition: all 0.1s ease;   /* ← smooth effect */
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
